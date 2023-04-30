@@ -1,7 +1,7 @@
 # Linear Regression
 <p align="justify">My intention by writing this code was to study the probably more basic machine learning algorithm, the Linear Regression. As you can see in notebook named <i>main.ipynb</i> that contains all of the mainly code, I've written all in Python and didn't use any machine learning library to assist. Instead, I've written all from scratch and used libraries only to auxiliate the data manipulation and visualization, like <i>pandas</i> and <i>matplotlib</i>. On the next lines, I am going to comment how the problem the problem was modeled and solved, even as the logic used to the object operation.</p>
 
-## Basic Algorithm
+## Base Algorithm
 1. **Forward**: receive the data and make the prediction
 2. **MSE**: calculate the error in the prediction made
 3. **Backward**: update the values of the variables based on their derivatives

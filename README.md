@@ -4,8 +4,6 @@
 ## Neuron
 <p align="justify">As we are working with a neural network with only one neuron, a perceptron that receives one input, the figure I imagined on implementing it was something like this: the <i>x</i> is the data that multiplies the weight <i>w</i> and goes to the sommatory. As we are working with one feature, the sum is just the addition of the bias <i>b</i> on the multiplication of the feature by the weight.</p>
 
-![neuron](/images/neuron.png)
-
 The class neuron was implemmented 
 
 ```
@@ -30,14 +28,3 @@ class Neuron:
 1. **Forward**: the perceptron receives the data and makes the prediction with it's current variables values
 2. **MSE**: calculate the error on prediction made
 3. **Backward**: update the values of the variables based on their derivatives and learning rate
-
-
-## Forward
-![forward](/images/forward.png)
-
-## MSE
-![mse](/images/mse.png)
-
-## Backward
-![backward](/images/backward.png)
->>>>>>> e646a96ffdae7fed67ba085a7577e75f28f71236

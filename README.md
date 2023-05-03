@@ -23,15 +23,5 @@ class Neuron:
         self.error = 0.0
         self.N = N
 ```
+
 <p align="justify">As we are working with a neural network with only one neuron, a perceptron that receives one input, the figure I imagined on implementing it was something like this: the **x** is the data that multiplies the weight **w** and goes to the sommatory. As we are working with one feature, the sum is just the addition of the bias **b** on the multiplication of the feature by the weight.</p>
-
-![neuron](/images/neuron.png)
-
-## Forward
-![forward](/images/forward.png)
-
-## MSE
-![mse](/images/mse.png)
-
-## Backward
-![backward](/images/backward.png)

@@ -21,9 +21,6 @@ class Neuron:
         self.N = N
 ```
 
-<<<<<<< HEAD
-<p align="justify">As we are working with a neural network with only one neuron, a perceptron that receives one input, the figure I imagined on implementing it was something like this: the **x** is the data that multiplies the weight **w** and goes to the sommatory. As we are working with one feature, the sum is just the addition of the bias **b** on the multiplication of the feature by the weight.</p>
-=======
 ## Base Algorithm
 1. **Forward**: the perceptron receives the data and makes the prediction with it's current variables values
 2. **MSE**: calculate the error on prediction made
